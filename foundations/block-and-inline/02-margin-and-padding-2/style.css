@@ -3,6 +3,10 @@ body {
   font-family: sans-serif;
 }
 
+* {
+  font-size: 16px;
+  padding: 10px;
+}
 .card {
   width: 400px;
   background: white;
@@ -15,6 +19,14 @@ body {
   background: dodgerblue;
 }
 
+.button-container {
+  margin-top: 10px;
+  text-align: center;
+}
+
 button {
   background: white;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
 }
