@@ -3,20 +3,19 @@ body {
   font-family: sans-serif;
 }
 
-* {
-  font-size: 16px;
-  padding: 10px;
-}
 .card {
   width: 400px;
   background: white;
   margin: 16px auto;
+  padding: 10px
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  padding: 10px;
+  font-size: 16px;
 }
 
 .button-container {
